@@ -15,7 +15,7 @@ getMovies = async () => {
     data: {
       boxOfficeResult: { dailyBoxOfficeList },
       },
-    } = await axios.get('http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=2ef389432c02b8b9f961b062d6f35e6c&targetDt=20210128');
+    } = await axios.get('https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=2ef389432c02b8b9f961b062d6f35e6c&targetDt=20210128');
   this.setState({ dailyBoxOfficeList, isLoading: false });
 };
 
