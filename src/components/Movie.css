@@ -4,7 +4,7 @@
     font-weight: 300;
     padding: 20px;
     border-radius: 5px;
-    color: #a9aab6;
+    color: #adaeb9;
     box-shadow: 0 13px 27px -5px rgba(82, 82, 92, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 .movies .movie a {
@@ -21,24 +21,21 @@
     font-weight: 300;
 }
 .movies .movie__title {
-    margin-bottom: 2px;
-    font-size: 25px;
-    color: teal;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
 }
 .movies .movie__openDt {
     margin-bottom: 2px;
     font-size: 15px;
-    color: #2c2c2c;
 }
 .movies .movie__audiAcc {
     margin-bottom: 2px;
     font-size: 15px;
-    color: rgb(47, 47, 177);
 }
 .movies .movie__salesAmt {
     margin-bottom: 30px;
     font-size: 15px;
-    color: rgb(150, 92, 17);
     padding: 0;
     display: flex;
     flex-wrap: wrap;
